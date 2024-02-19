@@ -1,20 +1,67 @@
-# fuelBuddy-FE-task
+# FuelBuddy
 
-Tech stack used: 
-a. Vue3 (Composition API)
-b. Typescript
-c. Vite
-d. Tailwind
-e. Firebase
-f. Pinia
-g. Storybook
+FuelBuddy is a web application built using Vue3, TypeScript, Vite, Tailwind CSS, Firebase, and Pinia. It provides a login functionality using Firebase authentication and a dashboard accessible only to authenticated users. Pinia is utilized as the state store for managing user login details.
 
-Description: 
-A login page where firebase authentication is used for login. A dashboard page which is only visible after login even after refresh. Used Pinia as state store for user login details. On the dashboard, logged in user details (eg. user id, user's email etc) are displayed and logout button that logouts the user from website and land them on login page. It has required stories for page components using storybook in the project.
 
-Reference to UI 
-![image](https://github.com/jshristi22/fuelBuddy-FE-task/assets/82311180/aaa50493-48e3-4d8c-9665-c32493cdfe2e)
-![image](https://github.com/jshristi22/fuelBuddy-FE-task/assets/82311180/b1968a7d-fb98-41ec-a835-5650134e2c5e)
-![image](https://github.com/jshristi22/fuelBuddy-FE-task/assets/82311180/39384ba1-f03b-4203-8813-245e9e0c5af3)
-![image](https://github.com/jshristi22/fuelBuddy-FE-task/assets/82311180/2518c46c-c660-4d8b-b3b3-3db9fda91c79)
-![image](https://github.com/jshristi22/fuelBuddy-FE-task/assets/82311180/e8e6197c-c0bd-48b3-857e-c8788208869d)
+## Technologies Used
+
+  - Vue3 (Composition API)
+  - TypeScript
+  - Vite
+  - Tailwind CSS
+  - Firebase
+  - Pinia
+  - Storybook
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/your-app.git
+
+## Getting Started
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone <repository-url
+   ```
+    1.Navigate to the project directory:    
+    ```bash
+        cd <project-directory>
+    ```
+    2.Open the index.html file in a web browser to view the video player.
+    ```bash
+        open index.html
+    ```
+    3.For the React version (if applicable), navigate to the react-app directory and run:
+    ```bash
+        npm install
+        npm start
+    ```
+    Open your browser and visit http://localhost:3000 to view the React application.
+
+## Features
+
+   **Login Page:** Utilizes Firebase authentication for user login.
+
+   **Dashboard Page:** Only accessible after successful login, persists login status even after page refresh.
+
+  **User Details:** Displays logged-in user details on the dashboard (e.g., user ID, email).
+
+  **Logout Button:** Allows users to log out from the website, redirecting them to the login page.
+
+  **Storybook Integration:**  Includes stories for page components using Storybook.
+
+## Screenshots
+![Screenshot (99)](https://github.com/sachinbiswal/fuelbuddy/assets/79940820/fd5c7c19-71e5-43a2-b4b1-6042952225ca)
+![Screenshot (100)](https://github.com/sachinbiswal/fuelbuddy/assets/79940820/baf565a1-fabb-4475-af0d-77981bfbce14)
+![Screenshot (101)](https://github.com/sachinbiswal/fuelbuddy/assets/79940820/2664eb10-8c21-41ab-8e6f-3732d1407247)
+![Screenshot (102)](https://github.com/sachinbiswal/fuelbuddy/assets/79940820/d878c9da-44a4-4df2-866f-499a4ae449e1)
+
+## Additional Notes
+> Make sure to replace <repository-url> with the actual URL of your repository.
+
+## Author
+Sachin Kumar Biswal
